@@ -1,0 +1,18 @@
+.topHeader {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.74);
+    font-family: 'Roboto', sans-serif;
+}
+#headerName {
+    color: rgb(220, 220, 220);
+}
+
+
+#headerInfo{
+    color: rgb(166, 166, 166);
+}
+
+.linkHeader {
+    padding: 20px;
+    background-color: rgb(227, 227, 227);
+}
