@@ -1,7 +1,17 @@
+.parentBox:before, .parentBox:after {
+    content: " ";
+    display: table;
+}
+
+.parentBox:after{
+    clear: both;
+}
+
 .topHeader {
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgb(64, 64, 64);
     font-family: 'Roboto', sans-serif;
+    
 }
 #headerName {
     color: rgb(220, 220, 220);
@@ -14,5 +24,26 @@
 
 .linkHeader {
     padding: 20px;
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(244, 242, 240);
+    
+}
+
+
+.headerLinks:link{
+    color: rgb(93, 93, 93);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    padding-right: 15px;
+    padding-top: 10px;
+    
+}
+.fa{
+    float: left;
+    padding-left: 5px;
+    color: grey;
+}
+
+.articles{
+    border-bottom: 1px solid rgb(244, 242, 240);
 }
