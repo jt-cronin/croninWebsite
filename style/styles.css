@@ -6,6 +6,25 @@ body {
     /* flex-direction: column; */
     margin: 0;
 }
+
+.topHeader{
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+}
+
+.fa-bars{
+    /* float: right; */
+}
+.fa-bars:hover .linkHeader{
+    display: block;
+}
+
+.hideshow{
+    position: relative;
+    display: inline-block;
+}
+
+
 a:link,a:visited{
 	text-decoration: none;
     color: rgb(64,64,64); 
@@ -26,43 +45,54 @@ a:link,a:visited{
     background-color: rgb(64, 64, 64);
     font-family: 'Roboto', sans-serif;
     font-size: .65em;
-    
+    display: flex;
+    justify-content:  space-between;
 }
 #headerName {
     color: rgb(220, 220, 220);
     margin: 2px;
+    /* float: left; */
 }
 
 
 #headerInfo{
     color: rgb(166, 166, 166);
     font-size: 1.2em;
+    /* float: left; */
     /* margin-top: 1px; */
 }
 
 .linkHeader {
+    display: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
     background-color: rgb(244, 242, 240);
     border-bottom: 2px solid rgb(224, 224, 224);
-    position: relative;
+    /* position: relative; */
     height: 40px;
+    /* float: left; */
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    z-index: 1;
 }
 
 .socialMedia{
-    position: absolute;
-    left: 0;
+    /* position: absolute; */
+    /* left: 0; */
+    float: left ;
     margin: 3px;
 }
 
 .navLinks {
-    position: absolute;
-    right: 0;
-    top: 20px;
-    margin: 2px;
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 20px; */
+    margin-top: 10px;
+    float: right;
 }
+
 
 .headerLinks:link{
     color: rgb(93, 93, 93);
@@ -75,7 +105,7 @@ a:link,a:visited{
     /* postion: absolute; */
 }
 .fa{
-    float: left;
+    /* float: left; */
     margin: 2px;
     color: lightgray;
 }
@@ -98,6 +128,9 @@ a:link,a:visited{
 	color: lightgray;
 } */
 
+.headerPic{
+    width: 100%;
+}
 
 .articles{
     border-top: 1px solid rgb(244, 242, 240);
@@ -106,15 +139,16 @@ a:link,a:visited{
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: center; */
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    margin-top: 2em;
 }
 
 .articlesHeader{
     font-family: 'Roboto', sans-serif;
     font-size: .95em;
-    color: rgb(182,182,182);
-    
+    color: rgb(182, 182, 182);
+    margin-top: 0;
 }
 
 .date {
