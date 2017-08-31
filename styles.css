@@ -78,6 +78,10 @@ a:link,a:visited{
     color: lightgray;
 }
 
+.btnTwitter:hover{
+	color: lightblue;
+}
+
 .articles{
     border-top: 1px solid rgb(244, 242, 240);
 }
