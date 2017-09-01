@@ -15,13 +15,12 @@ body {
 .fa-bars{
     /* float: right; */
 }
-.fa-bars:hover .linkHeader{
-    display: block;
-}
 
-.hideshow{
-    position: relative;
-    display: inline-block;
+.hideShow{
+    z-index: 1;
+    display: none;
+    position: absolute;
+    width: 100%;
 }
 
 
@@ -63,7 +62,7 @@ a:link,a:visited{
 }
 
 .linkHeader {
-    display: none;
+    /* display: none; */
     padding-top: 10px;
     padding-bottom: 10px;
     /* padding-left: 5px; */
@@ -178,6 +177,11 @@ a:hover, a:active{
 .headerLinks:hover{
 	color: rgb(26, 255, 140);
 }
+
+.fa-bars:hover + .linkHeader{
+ 	display: block;
+}
+
 
 /* .btnTwitter:hover{
     border-radius: 24px;
