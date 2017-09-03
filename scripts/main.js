@@ -1,11 +1,20 @@
 window.addEventListener('load', function(){
 
-	debugger
 	var dropDownContent = document.getElementsByClassName('hideShow')[0];
-	var dropDownMenu = document.getElementById('drowDown');
+	var dropDownMenu = document.getElementById('dropDown');
+	var shown = false;
 
 	dropDownMenu.addEventListener('click', function(){
-		dropDownContent.style.display = "block";
+		if (shown == false){
+			dropDownContent.style.display = "block";
+			shown = true;
+		}
+		else {
+			dropDownContent.style.display = "none";
+			shown = false;
+
+		}
+		
 	});
 
 });
