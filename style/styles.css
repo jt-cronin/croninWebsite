@@ -194,6 +194,9 @@ a:hover, a:active{
 .fa-bars:hover + .linkHeader{
  	display: block;
 }
+.articlePic{
+    width: 25%;
+}
 
 @media (min-width: 570px) {
 
@@ -205,7 +208,7 @@ a:hover, a:active{
         display: block;
         float: right;
         width: 60%; 
-       
+        background-color: rgb(244, 242, 240); 
     }
     
     .innerBody{
